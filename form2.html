@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="full-name">Full Name</label>
+        <input type="text" id="full-name" name="full_name" required>
+        <br>
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" required>
+        <br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <label>Gender</label>
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <br>
+
+        <label for="qualifications">Qualifications</label>
+        <br>
+        <select id="qualifications" name="qualifications">
+            <option value="" disabled selected>Choose</option>
+            <option value="plus_two">Plus Two</option>
+            <option value="ug">UG</option>
+            <option value="pg">PG</option>
+        </select>
+        <br>
+
+        <label>Skills</label>
+        <br>
+        <label for="html">HTML</label>
+        <input type="checkbox" id="html" name="skills" value="html">
+        
+        <label for="css">CSS</label>
+        <input type="checkbox" id="css" name="skills" value="css">
+        
+        <label for="javascript">Javascript</label>
+        <input type="checkbox" id="javascript" name="skills" value="javascript">
+        <br>
+
+        <input type="submit" value="Submit Form">
+    </form>
+</body>
+</html>
